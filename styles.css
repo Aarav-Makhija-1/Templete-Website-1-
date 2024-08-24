@@ -1,25 +1,35 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #121212;
-    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
 a {
-    color: #FFD700;
+    color: #FF5733;
     text-decoration: none;
 }
 
 a:hover {
-    color: #FFC107;
+    color: #C70039;
 }
 
 /* Navbar */
 .navbar {
-    border-bottom: 2px solid #FFD700;
+    background-color: #333;
+    border-bottom: 2px solid #FF5733;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #FFC300;
 }
 
 /* Hero Section */
@@ -31,11 +41,13 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #fff;
 }
 
 .hero h1 {
     font-size: 3.5rem;
     font-weight: bold;
+    color: #FFC300;
 }
 
 .hero p {
@@ -44,7 +56,7 @@ a:hover {
 
 /* Services Section */
 .services {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     color: #333;
     padding: 4rem 0;
 }
@@ -52,7 +64,7 @@ a:hover {
 .services h3 {
     font-size: 1.75rem;
     font-weight: bold;
-    color: #121212;
+    color: #FF5733;
 }
 
 .services p {
@@ -70,6 +82,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #fff;
 }
 
 .portfolio-content, 
@@ -82,9 +95,9 @@ a:hover {
 
 /* Footer */
 footer {
-    background-color: #1A1A2E;
+    background-color: #333;
     color: #ffffff;
-    border-top: 2px solid #FFD700;
+    border-top: 2px solid #FF5733;
     padding: 2rem 0;
     text-align: center;
 }
@@ -94,24 +107,24 @@ footer p {
 }
 
 footer .social-links a {
-    color: #FFD700;
+    color: #FF5733;
     margin: 0 10px;
     font-size: 1.5rem;
 }
 
 footer .social-links a:hover {
-    color: #FFC107;
+    color: #FFC300;
 }
 
 /* Buttons */
 .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #FF5733;
+    border-color: #FF5733;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004085;
+    background-color: #C70039;
+    border-color: #900C3F;
 }
 
 /* Forms */
@@ -129,7 +142,7 @@ footer .social-links a:hover {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
-    color: #1A1A2E;
+    color: #333;
 }
 
 .contact-form input,
@@ -147,7 +160,7 @@ footer .social-links a:hover {
     display: block;
     width: 100%;
     padding: 1rem;
-    background: #007bff;
+    background: #FF5733;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -157,5 +170,5 @@ footer .social-links a:hover {
 }
 
 .contact-form button:hover {
-    background: #0056b3;
+    background: #C70039;
 }
