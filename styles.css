@@ -172,3 +172,24 @@ footer .social-links a:hover {
 .contact-form button:hover {
     background: #C70039;
 }
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .services h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form form {
+        padding: 1.5rem;
+    }
+}
+
